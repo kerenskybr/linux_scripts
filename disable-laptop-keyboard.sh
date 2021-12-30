@@ -1,11 +1,12 @@
 #!/bin/bash
 # run xinput and put AT TRANS... into id var
 # AT Translated Set 2 keyboard  
+# Or the string itself. Sometimes id changes on boot
 
 Icon="/PATH/TO/ICON_ON"
 Icoff="/PATH_TO_ICON_OFF"
 fconfig=".keyboard" 
-id=21
+id="AT Translated Set 2 keyboard" #21
 
 if [ ! -f $fconfig ];
     then
